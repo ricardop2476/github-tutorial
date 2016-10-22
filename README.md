@@ -6,8 +6,8 @@ by Ricardo Pena
 ## Git vs. GitHub
 #### *What is Git*?  
 Git is used to administer your code by saving "snapshots" of it. Git helps the coder have basic access to the past revisions of their directory.
-##### *What is Github*?
-Github is a platform that keeps your code online (in the cloud). In order to use this, you need to have Git.
+#### *What is Github*?
+Github is a platform that saves your code online (in the cloud). In order to use this, you need to have Git. Github also provides easy collaberation on projects. In order to use Github you need to have Git.
 
 ---
 ## Initial Setup
@@ -30,7 +30,12 @@ Now that you have access to Github and c9 we will need to make a SSH key. Here a
 ---
 ## Repository Setup
 #### *How do I make a remote repository?*
+1. Go to github and expand the "+" menu. Click on "New Repository".  
+2. You should name the repository what ever the directory name is in c9. They should be the same!  
+3. Finally, click on "Create repository".  
 
+We now have made our remote repository on Github. Now you can push commits to this repository. Next we will initizalize git and make our first add and commit:  
+1. In c9 
 
 ---
 ## Workflow & Commands
