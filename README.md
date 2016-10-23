@@ -25,7 +25,7 @@ Now that you have access to Github and c9 we will need to make a SSH key. Here a
 2. Under your _personal settings_ you will see SSH and GPG keys; click on it.  
 3. Make a new SSH key and name it Cloud 9.  
 4. On [cloud9](https://c9.io/?redirect=0) click on settings (gear symbol).  
-5. On the left, click on SSH keys and copy and paste the key that starts with `ssh-rsa`.  
+5. On the left, click on SSH keys and copy and paste the key that starts with `ssh-rsa`.
 6. Add your SSH key and finally, open the directory that you have.
 ---
 ## Repository Setup
@@ -34,8 +34,13 @@ Now that you have access to Github and c9 we will need to make a SSH key. Here a
 2. You should name the repository what ever the directory name is in c9. They should be the same!  
 3. Finally, click on "Create repository".  
 
-We now have made our remote repository on Github. Now you can push commits to this repository. Next we will initizalize git and make our first add and commit:  
-1. In c9 
+We now have made our remote repository on Github. Now you can push commits to this repository. Next we will initizalize git and make our first add and commit. Skip steps 1-3 if you have a directory made, and are in it.  
+1. First you want to go into your `~/workspace`. To do this, write `cd ~/workspace` in your terminal. (cd means change directory)
+2. Next, we want to make a new directory (folder). Type `mkdir repo-name`. (repo-name is what ever you want)
+3. We will now change the directory into the new repo.
+4. To initizalize git type `git init` inside of the terminal.  
+Now that we have our directory ready, and have git initizalized we will make our first *add and commmit*:
+1. Create a new file by typing: `touch file-name.md `
 
 ---
 ## Workflow & Commands
