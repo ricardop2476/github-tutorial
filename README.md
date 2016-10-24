@@ -39,16 +39,28 @@ We now have made our remote repository on Github. Now you can push commits to th
 2. Next, we want to make a new directory (folder). Type `mkdir repo-name`. (repo-name is what ever you want)  
 3. We will now change the directory into the new repo.  
 4. To initizalize git type `git init` inside of the terminal.  
-
+#### *Add and commit:*
 Now that we have our directory ready, and have git initizalized we will make our first *add and commmit*:  
 1. Create a new file by typing: `touch file-name.md `  
 2. To add the file (after making changes to it) type `git add file-name.md`.  
 3. Next, we will make a commit: `git commit -m "message*"`. *Your message should be in the present tense and should include a description about your changes. Ex: create new file and add content.  
 4. Finally we are able to push to our remote repository. In order to do this use `git push`.  
-By this point you should now have:  
+By this point you should now have:
 * Remote repository
 * Git initizalized
 * First add & commit
 
 ---
 ## Workflow & Commands
+#### *How and when do I use git- status, add, commit, and push?*
+When working on your project(s) you will need to know how to use these commands to fully use git and github. You should be using `git status`, then `git add`, `git status`, and finally `git commit`. 
+
+* ###### What do they do, and when should I use it?  
+  * ##### `git status`
+    Git status 
+  * ##### `git add`
+    Git add
+  * ##### `git commit`
+    Git commit
+  * ##### `git push`  
+    Git push
