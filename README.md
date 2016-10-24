@@ -53,14 +53,14 @@ By this point you should now have:
 ---
 ## Workflow & Commands
 #### *How and when do I use git- status, add, commit, and push?*
-When working on your project(s) you will need to know how to use these commands to fully use git and github. You should be using `git status`, then `git add`, `git status`, and finally `git commit`. 
+When working on your project(s) you will need to know how to use these commands to fully use git and github. 
 
-* ###### What do they do, and when should I use it?  
-  * ##### `git status`
-    Git status 
-  * ##### `git add`
-    Git add
-  * ##### `git commit`
-    Git commit
-  * ##### `git push`  
-    Git push
+* What do they do, and when should I use it?  
+  * `git status`:
+    Keeps track of the file you are working on. It will either show you which files have been changed scince the last commit, and which files have been added. You should be using `git status` *first*, then `git add`, `git status`, and finally `git commit`.
+  * `git add`:
+    This command will add a file to the staging area. This means that you are preparing it for a commit. This command does not mean that you have done a commit. This is the *second* step to making a commit. (You should use `git status` *third*)
+  * `git commit`:
+    Records the contents of a file at that are on the staging area: "snapshot". The message that is included in the commit should be in the present tense and should provide a short description about the edits/revisions you have done. This is the *fourth* step.
+  * `git push`:
+    You are now ready to push your commits to your remote repository! Git push sends your commit to the remote repository, which in this case is in github. In github it is now saved to your commit history. This is the *last* step.
