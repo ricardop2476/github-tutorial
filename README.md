@@ -32,13 +32,13 @@ Now that you have access to Github and c9 we will need to make a SSH key. Here a
 ---
 ## Repository Setup
 #### *How do I make a remote repository?*
-1. Go to github and expand the "+" menu. Click on "New Repository".  
+1. Go to github and expand the "+" menu. Click on "New Repository". ![](newrepo.png)  
 2. You should name the repository whatever the directory name is in c9. They should be the same!  
-3. Finally, click on "Create repository".  
+3. Finally, click on ![](createrepo.png).  
 
 We now have made our remote repository on Github. Now you can push commits to this repository. Next we will initialize git and make our first add and commit. Skip steps 1-3 if you have a directory made, and are in it.  
 1. First you want to go into your `~/workspace`. To do this, write `cd ~/workspace` in your terminal. (cd means change directory)  
-2. Next, we want to make a new directory (folder). Type `mkdir repo-name`. (repo-name is whatever you want)  
+2. Next, we want to make a new directory (folder). Type `mkdir repo-name`. (repo-name should be the same as the directory, as explaned above)  
 3. We will now change the directory into the new repo.  
 4. To initialize git type `git init` inside of the terminal.  
 #### *Add and commit:*
