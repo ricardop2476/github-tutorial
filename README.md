@@ -16,7 +16,7 @@ Creating a Github account is essential because it will help you push commits to 
 1. Go to [github](https://github.com/) and click on ![](signup.png)  
 2. Make a username, add an e-mail address, and create your password.  
 3. Follow the directions to "Choose your plan" and "Tailor your experience".  
-    ![](githubacc.png)
+    ![](githubacc.png)  
 4. Now you have your github account. Don't forget to verify your e-mail!
 
 You can now sign into [c9](https://c9.io/) with your Github account. In c9 you can now create your directories and push any changes to github.
