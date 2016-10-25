@@ -32,7 +32,7 @@ Now that you have access to Github and c9 we will need to make a SSH key. Here a
 ---
 ## Repository Setup
 #### *How do I make a remote repository?*
-1. Go to github and expand the "+" menu. Click on "New Repository". ![](newrepo.png)  
+1. Go to github and expand the "+" menu. Click on "New Repository". ![](newrep o.png)  
 2. You should name the repository whatever the directory name is in c9. They should be the same!  
 3. Finally, click on ![](createrepo.png).  
 
