@@ -24,7 +24,7 @@ You can now sign into [c9](https://c9.io/) with your Github account. In c9 you c
 Now that you have access to Github and c9 we will need to make a SSH key. Here are some steps to help you complete this task:  
 1. On [github](https;//github.com/) click on your avatar and then click on settings.  
 2. Under your _personal settings_ you will see ![](sshandgpgkeys.png) SSH and GPG keys; click on it.  
-3. Make a ![](newsshkey.png) new SSH key and name it Cloud 9.  
+3. Make a ![](newsshkey.png) and name it Cloud 9.  
 4. On [cloud9](https://c9.io/?redirect=0) click on settings (gear symbol).  
 5. On the left, click on SSH keys and copy and paste the key that starts with `ssh-rsa`.
 6. Add your SSH key and finally, open the directory that you have.  
@@ -32,7 +32,8 @@ Now that you have access to Github and c9 we will need to make a SSH key. Here a
 ---
 ## Repository Setup
 #### *How do I make a remote repository?*
-1. Go to github and expand the "+" menu. Click on "New Repository". ![](newrepo.PNG)  
+1. Go to github and expand the "+" menu. Click on "New Repository".  
+![](newrepo.PNG)  
 2. You should name the repository whatever the directory name is in c9. They should be the same!  
 3. Finally, click on ![](createrepo.PNG).  
 
