@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub-tutorial by ricardop2476</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>GitHub-tutorial</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/ricardop2476/github-tutorial">View the Project on GitHub <small>ricardop2476/github-tutorial</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/ricardop2476/github-tutorial/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/ricardop2476/github-tutorial/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/ricardop2476/github-tutorial">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p>by Ricardo Pena</p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<h4>
+<a id="what-is-git" class="anchor" href="#what-is-git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>What is Git</em>?</h4>
+
+<p>Git is used to administer your code by saving "snapshots" of it. Git helps the coder have basic access to the past revisions of their directory.</p>
+
+<h4>
+<a id="what-is-github" class="anchor" href="#what-is-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>What is Github</em>?</h4>
+
+<p>Github is a platform that saves your code online (in the cloud). In order to use this, you need to have Git. Github also provides easy collaboration on projects. In order to use Github you need to have Git.</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h4>
+<a id="how-do-i-make-a-github-account" class="anchor" href="#how-do-i-make-a-github-account" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>How do I make a Github account?</em>
+</h4>
+
+<p>Creating a Github account is essential because it will help you push commits to your repository and therefore will enable you to access the revision history of your directory. Steps to making a Github account:<br>
+1. Go to <a href="https://github.com/">github</a> and click on <img src="signup.png" alt=""><br>
+2. Make a username, add an e-mail address, and create your password.<br>
+3. Follow the directions to "Choose your plan" and "Tailor your experience".<br>
+    <img src="githubacc.png" alt=""><br>
+4. Now you have your github account. Don't forget to verify your e-mail!</p>
+
+<p>You can now sign into <a href="https://c9.io/">c9</a> with your Github account. In c9 you can now create your directories and push any changes to github.</p>
+
+<h4>
+<a id="how-to-create-a-ssh-key-between-github-and-c9" class="anchor" href="#how-to-create-a-ssh-key-between-github-and-c9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>How to create a SSH key between Github and c9:</em>
+</h4>
+
+<p>Now that you have access to Github and c9 we will need to make a SSH key. Here are some steps to help you complete this task:<br>
+1. On <a href="https;//github.com/">github</a> click on your avatar and then click on settings.<br>
+2. Under your <em>personal settings</em> you will see <img src="sshandgpgkeys.png" alt=""> SSH and GPG keys; click on it.<br>
+3. Make a <img src="newsshkey.png" alt=""> and name it Cloud 9.<br>
+4. On <a href="https://c9.io/?redirect=0">cloud9</a> click on settings (gear symbol).<br>
+5. On the left, click on SSH keys and copy and paste the key that starts with <code>ssh-rsa</code>.
+6. Add your SSH key and finally, open the directory that you have.  </p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<h4>
+<a id="how-do-i-make-a-remote-repository" class="anchor" href="#how-do-i-make-a-remote-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>How do I make a remote repository?</em>
+</h4>
+
+<ol>
+<li>Go to github and expand the "+" menu. Click on "New Repository".<br>
+<img src="newrepo.PNG" alt=""><br>
+</li>
+<li>You should name the repository whatever the directory name is in c9. They should be the same!<br>
+</li>
+<li>Finally, click on <img src="createrepo.PNG" alt="">.<br>
+</li>
+</ol>
+
+<p>We now have made our remote repository on Github. Now you can push commits to this repository. Next we will initialize git and make our first add and commit. Skip steps 1-3 if you have a directory made, and are in it.<br>
+1. First you want to go into your <code>~/workspace</code>. To do this, write <code>cd ~/workspace</code> in your terminal. (cd means change directory)<br>
+2. Next, we want to make a new directory (folder). Type <code>mkdir repo-name</code>. (repo-name should be the same as the directory, as explaned above)<br>
+3. We will now change the directory into the new repo.<br>
+4. To initialize git type <code>git init</code> inside of the terminal.  </p>
+
+<h4>
+<a id="add-and-commit" class="anchor" href="#add-and-commit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>Add and commit:</em>
+</h4>
+
+<p>Now that we have our directory ready, and have git initialized we will make our first <em>add and commit</em>:<br>
+1. Create a new file by typing: <code>touch file-name.md</code><br>
+2. To add the file (after making changes to it) type <code>git add file-name.md</code>.<br>
+3. Next, we will make a commit: <code>git commit -m "message*"</code>. *Your message should be in the present tense and should include a description about your changes. Ex: create new file and add content.<br>
+4. Finally we are able to push to our remote repository. In order to do this use <code>git push</code>.<br>
+By this point you should now have:</p>
+
+<ul>
+<li>Remote repository</li>
+<li>Git initialized </li>
+<li>First add &amp; commit</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<h4>
+<a id="how-and-when-do-i-use-git--status-add-commit-and-push" class="anchor" href="#how-and-when-do-i-use-git--status-add-commit-and-push" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>How and when do I use git- status, add, commit, and push?</em>
+</h4>
+
+<p>When working on your project(s) you will need to know how to use these commands to fully use git and github. </p>
+
+<ul>
+<li>What do they do, and when should I use it?<br>
+
+<ul>
+<li>
+<code>git status</code>:
+Keeps track of the file you are working on. It will either show you which files have been changed since the last commit, and which files have been added. You should be using <code>git status</code> <em>first</em>, then <code>git add</code>, <code>git status</code>, and finally <code>git commit</code>.</li>
+<li>
+<code>git add</code>:
+This command will add a file to the staging area. This means that you are preparing it for a commit. This command does not mean that you have done a commit. This is the <em>second</em> step to making a commit. (You should use <code>git status</code> <em>third</em>)</li>
+<li>
+<code>git commit</code>:
+Records the contents of a file at that are on the staging area: "snapshot". The message that is included in the commit should be in the present tense and should provide a short description about the edits/revisions you have done. This is the <em>fourth</em> step.</li>
+<li>
+<code>git push</code>:
+You are now ready to push your commits to your remote repository! Git push sends your commit to the remote repository, which in this case is in github. In github it is now saved to your commit history. This is the <em>last</em> step.</li>
+</ul>
+</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/ricardop2476">ricardop2476</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
